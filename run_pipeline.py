@@ -34,8 +34,8 @@ parser.add_argument('--num_failed_det', type=int, default=25,
 parser.add_argument('--min_face_size', type=int, default=100, help='Minimum face size in pixels');
 opt = parser.parse_args();
 
-opt.reference = 'c1DRo3tPDG4'
-opt.videofile = 'D:\\0xz\\code\\TalkingHead-1KH\\data\\c1DRo3tPDG4.mp4'
+# opt.reference = 'c1DRo3tPDG4'
+# opt.videofile = 'D:\\0xz\\code\\TalkingHead-1KH\\data\\c1DRo3tPDG4.mp4'
 
 setattr(opt, 'avi_dir', os.path.join(opt.data_dir, 'pyavi'))
 setattr(opt, 'tmp_dir', os.path.join(opt.data_dir, 'pytmp'))
